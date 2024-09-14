@@ -1,0 +1,161 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-image: url('/images/background_pic.png');
+    background-size: cover; /* Makes the image cover the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    height: 100vh; /* Makes sure it covers the full height of the viewport */
+    margin: 0;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.me a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333fe;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.me a:hover {
+    background-color: #f0f0f0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    text-decoration: hotpink;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+
+.nav-links :hover {
+    background-color: #f0f0f0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    text-decoration: hotpink;
+}
+
+
+
+.nav-links a {
+    font-size: 18px;
+    color: #333;
+    padding: 10px 20px;
+}
+
+.abc {
+    padding: 10px 20px;
+    background-color: #FF6347;
+    color: olive;
+    border-radius: 30px;
+}
+
+/* container Section */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    background-color: #f5f7f9;
+}
+
+.container-content h3 {
+    font-size: 16px;
+    color: #FF6347;
+    letter-spacing: 1px;
+}
+
+.container-content h1 {
+    font-size: 48px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.container-content h1 .highlight {
+    color: #FF6347;
+}
+
+.container-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container-buttons {
+    margin-top: 30px;
+}
+
+.container-buttons .btn {
+    padding: 12px 30px;
+    background-color: #FF6347;
+    color: white;
+    border-radius: 30px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.container-buttons .btn.secondary {
+    background-color: #333;
+}
+
+.container-buttons .btn:hover {
+    background-color: #d9534f;
+}
+
+/* container Image */
+.container-image img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container h2{
+    display: block;
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .inflow-list li {
+    display: inline-block; /* Makes the list items flow inline */
+    margin-right: 20px; /* Adds space between list items */
+  }
+  
